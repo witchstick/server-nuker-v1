@@ -170,7 +170,7 @@ class bot {
     }
     start() {
         this.bot.on('ready', () => {
-            process.title = `[313] Nuke Bot | Created by Luci | Bots ${tokens.length}`;
+            process.title = `[313] Nuke Bot | Created by Witchstick | Bots ${tokens.length}`;
             console.log(chalk.hex("313CA1")(`[!] ${time}: Logged into User Token ${this.bot.user.tag}`));
         })
         this.bot.on("message", async message => {
